@@ -1,24 +1,5 @@
 package com.teamgeny.debate.fragments;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Locale;
-
-import android.app.Dialog;
-import android.app.TimePickerDialog;
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.NumberPicker;
-import android.widget.NumberPicker.OnValueChangeListener;
-import android.widget.TextView;
-import android.widget.TimePicker;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -29,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.liltof.library.tools.PushScale;
 import com.teamgeny.debate.R;
 
 public class FragmentAbout extends FragmentParent {
@@ -199,6 +179,36 @@ public class FragmentAbout extends FragmentParent {
 				startActivity(browserIntent);
 			}
 		});
+		me.findViewById(R.id.thanksto2).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://code.google.com/p/dashclock/source/browse/main/src/main/java/com/google/android/apps/dashclock/ui/SwipeDismissListViewTouchListener.java"));
+				startActivity(browserIntent);
+				
+			}
+		});
+		me.findViewById(R.id.thanksto3).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bitbucket.org/danielnadeau/holographlibrary/wiki/Home"));
+				startActivity(browserIntent);
+				
+			}
+		});
+		me.findViewById(R.id.thanksto4).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/JakeWharton/Android-ViewPagerIndicator"));
+				startActivity(browserIntent);
+				
+			}
+		});
+		
+		//
+		//
 		GOS.setOnClickListener(new OnClickListener() {		
 			@Override
 			public void onClick(View v) {
