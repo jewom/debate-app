@@ -40,6 +40,7 @@
     <string name="sound_percent">Tiempo que queda antes de jugar este sonido (en %).</string>
     <string name="vibrator">Utilizar el vibrador</string>
     <string name="edit">Modificar</string>
+    <string name="selectbip">Seleccione un sonido</string>
     
     <!-- Pro Version -->
     <string name="limited">La version gratis esta limitada a 3 participantes</string>

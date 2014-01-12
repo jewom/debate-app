@@ -41,6 +41,7 @@
     <string name="sound_percent">Time remaining before launch this sound (in %).</string>
     <string name="vibrator">Use the vibrator</string>
     <string name="edit">Edit</string>
+    <string name="selectbip">Select a sound</string>
     
     <!-- Pro Version -->
     <string name="limited">Free version is limited to 3 speakers.</string>
