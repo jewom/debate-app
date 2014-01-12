@@ -27,6 +27,7 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="cancel">Cancel</string>
+    <string name="pleasefinish">Please finish the debate before exit!</string>
     
     <!-- Historique -->
     <string name="details">Details</string>
