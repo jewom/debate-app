@@ -154,6 +154,12 @@ public class FragmentSettings extends FragmentParent {
 							.setArbitraryPref(getActivity(), pref, tmp);
 
 				}
+				((TextView) me.findViewById(R.id.actual1)).setText(PreferenceManager.getArbitraryPref(getActivity(), "soundend", SoundRings.defaultFinDebat));
+
+				((TextView) me.findViewById(R.id.actual2)).setText(PreferenceManager.getArbitraryPref(getActivity(), "soundparoleend", SoundRings.defaultFinUnePers));
+
+				((TextView) me.findViewById(R.id.actual3)).setText(PreferenceManager.getArbitraryPref(getActivity(), "soundparolepercent", SoundRings.defaultPercent));
+
 			}
 		});
 		builder.setSingleChoiceItems(items, selected,
